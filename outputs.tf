@@ -9,6 +9,6 @@ output "efs_dns" {
 }
 
 output "efs_id" {
-  decsription = "id of the efs resources created"
+  description = "id of the efs resources created"
   value = "${aws_efs_file_system.mod.id}"
 }
